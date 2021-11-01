@@ -9,7 +9,7 @@
 - Step 6: run **pip install flask_mongoengine**
 
 ## Launching the app
-- Command: **py main.py**
-- Visit **http://localhost:5000** in your browser to use that app.
+- Run this Command: **py main.py**
+- Visit: **http://localhost:5000** in your browser to use that app.
 
 - Once the virtual environment is set up, you can just activate it whenever you want using **.\venv\Scripts\Activate.ps1** and run **py main.py** to launch it again.
