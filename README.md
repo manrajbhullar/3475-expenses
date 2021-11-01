@@ -1,7 +1,7 @@
 # How to Run Expenses
 
 ## If running for the very first time do this first:
-- Step 1: Install **MongoDB Compass** from **https://www.mongodb.com/try/download/compass**
+- Step 1: Install **MongoDB Community Server** from **https://www.mongodb.com/try/download/community**. Do a full install including **MongoDB Compass**.
 - Step 2: Open **terminal** and **cd** into code directory
 - Step 3: run **py -m venv venv**
 - Step 4: run **.\venv\Scripts\Activate.ps1**
