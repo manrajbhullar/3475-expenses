@@ -9,8 +9,8 @@ from controllers import expense_controller, category_controller, statistics_cont
 def create_app():
     app = Flask(__name__)
     app.config['MONGODB_HOST'] = HOST
-    app.config["MONGODB_USERNAME"] = USER
-    app.config["MONGODB_PASSWORD"] = PASSWORD
+    #app.config["MONGODB_USERNAME"] = USER
+    #app.config["MONGODB_PASSWORD"] = PASSWORD
     db.init_app(app)
 
     @app.route('/')
