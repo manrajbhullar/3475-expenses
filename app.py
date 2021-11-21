@@ -1,14 +1,16 @@
 """
 This module contains the method to create the flask application and configures all forwarding requests.
 """
-
+from db_config import HOST, USER, PASSWORD
 from flask import Flask, render_template
 from models import db
 from controllers import expense_controller, category_controller, statistics_controller
 
 def create_app():
     app = Flask(__name__)
-    app.config['MONGODB_HOST'] = 'mongodb://localhost:27017/2911'
+    app.config['MONGODB_HOST'] = HOST
+    app.config["MONGODB_USERNAME"] = USER
+    app.config["MONGODB_PASSWORD"] = PASSWORD
     db.init_app(app)
 
     @app.route('/')
